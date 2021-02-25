@@ -1,6 +1,5 @@
+var nome = prompt('Inserisci il tuo nome');
+var cognome = prompt('Inserisci il tuo cognome');
+var colore = prompt('Il tuo colore preferito?');
 
-var nome = 'Inserisci il tuo nome';
-var cognome = 'Inserisci il tuo cognome';
-var colore = 'Il tuo colore preferito?';
-prompt(nome) + prompt(cognome) + prompt(colore);
-document.getElementById('name').innerHTML = nome + cognome + colore;
+document.getElementById('password').innerHTML = nome + cognome + colore + 27 ;
